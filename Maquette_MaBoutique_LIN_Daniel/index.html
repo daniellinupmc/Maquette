@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CDN Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- mon css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- début container -->
+    <div class="container pt-3">
+      <!-- début header -->
+      <header class="border-start border-top border-end border-secondary">
+        <div class="row">
+          <!-- début logo, nom de la boutique et information -->
+          <div class="col-sm-4">
+            <div class="col-2">
+              <!-- début logo -->
+              <a href="#">
+                <img
+                  class="img-fluid"
+                  src="img/logo.png"
+                  alt="image logo Ma Boutique"
+              /></a>
+              <!-- fin logo -->
+            </div>
+
+            <div class="col-10">
+              <!-- début nom de la boutique -->
+              <h1 class="nom-boutique">Ma Boutique</h1>
+              <!-- fin nom de la boutique -->
+
+              <!-- début information de la boutique -->
+              <p class="information">Vente en ligne : Mode, Tendance et Déco</p>
+              <!-- fin information de la boutique -->
+            </div>
+          </div>
+          <!-- fin logo, nom de la boutique et information -->
+
+          <!-- début aide et horaire -->
+          <div class="col-md-3 offset-md-1">
+            <h2 class="aide">Besoin d'aide ?</h2>
+            <!-- début image du contact de téléphone -->
+            <img
+              class="img-fluid logo-aide"
+              src="img/aide.png"
+              alt="image pour le contact par téléphone"
+            />
+            <!-- fin image du contact de téléphone -->
+
+            <span class="numero-aide">0800 10 28 10</span>
+            <!-- début horaire -->
+            <div class="horaire">Du lundi au vendredi de 10h à 17h30</div>
+            <!-- fin horaire -->
+          </div>
+          <!-- fin aide et horaire -->
+
+          <!-- début compte et panier -->
+          <div class="col-md-3 p-0 offset-md-1">
+            <!-- début compte -->
+            <div class="row compte justify-content-center">Mon Compte</div>
+            <!-- fin compte -->
+
+            <!-- début panier -->
+            <div class="row panier mt-1 p-2">
+              <div class="col-3">
+                <!-- début logo panier -->
+                <img
+                  class="img-fluid"
+                  src="img/article.png"
+                  alt="image de mon panier"
+                />
+                <!-- fin logo panier -->
+              </div>
+              <div class="col-9 pt-2">article(s) dans votre panier</div>
+            </div>
+            <!-- fin panier -->
+          </div>
+          <!-- fin compte et panier -->
+        </div>
+
+        <!-- début barre de navigation -->
+        <div class="row mt-2">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 justify-content-around">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Vetements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Maison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Technologie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bijoux</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Idées Cadeaux</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- fin barre de navigation -->
+      </header>
+      <!-- fin header -->
+
+      <!-- début main -->
+      <main class="border-start border-end border-secondary">
+        <!-- début bandeau -->
+        <div class="row">
+          <!-- début image bandeau -->
+          <img
+            class="img-fluid p-0"
+            src="img/bandeau.png"
+            alt="Image bandeau d'une publicité de parfum avec Enrique Iglesias"
+          />
+          <!-- fin image bandeau -->
+        </div>
+        <!-- fin bandeau -->
+
+        <!-- début paiement, qui sommes-nous, services -->
+        <div class="row mt-md-5">
+          <!-- début paiement -->
+          <div class="col-md-3 pt-3 border-end border-secondary">
+            <h3>Paiement Sécurisé</h3>
+            <p>Reglez vos achats en toute sérénité sur maboutique.com</p>
+            <!-- début image des différents types de paiements acceptés -->
+            <img
+              class="img-fluid"
+              src="img/paiement.png"
+              alt="image des différents types de paiements acceptés"
+            />
+            <!-- fin image des différents types de paiements acceptés -->
+          </div>
+          <!-- fin paiement -->
+
+          <!-- début qui sommes-nous -->
+          <div class="col-md-6 pt-3">
+            <h3>Qui sommes-nous ?</h3>
+            <p>
+              Bienvenue chez MaBoutique ! MaBoutique est la plus grande boutique
+              en ligne de France consacrée à la mode et à la beauté pour femmes
+              et hommes. <br />
+              Nous proposons plus de 850 marques ainsi que nos propres
+              collections. <br />
+              N'hésitez plus ! les livraisons et les retours sont gratuits.
+              <br />
+              Retrait possible de votre commande dans notre entrepot sur RDV.
+            </p>
+          </div>
+          <!-- fin qui sommes-nous -->
+
+          <!-- début services -->
+          <div class="col-md-3 pt-3 border-start border-secondary">
+            <h3>Services</h3>
+            <!-- début livraison -->
+            <div class="camion pt-2">
+              <!-- début image camion -->
+              <img src="img/camion.png" alt="image d'un camion" />
+              <!-- fin image camion -->
+              Livraison sous 48h
+            </div>
+            <!-- fin livraison -->
+
+            <!-- début échange -->
+            <div class="pt-3">
+              <!-- début image flèches qui se suivent dans le sens inverse de l'horloge -->
+              <img
+                src="img/echange.png"
+                alt="image de deux flèches qui se suivent dans le sens inverse de l'horloge"
+              />
+              <!-- fin image flèches qui se suivent dans le sens inverse de l'horloge -->
+              Produits Echangeables
+            </div>
+            <!-- fin échange -->
+          </div>
+          <!-- fin services -->
+        </div>
+        <!-- fin paiement, qui sommes-nous, services -->
+
+        <!-- début bon plan, coup de coeur, objectif plaisir -->
+        <div class="row pt-5 pb-5 justify-content-around">
+          <!-- début bon plan -->
+          <div class="col-md-3 p-0 mt-4 bordure">
+            <p class="recommandation text-center">Bon Plan</p>
+            <!-- début robe -->
+            <div class="row robe">
+              <div class="col-3">
+                <!-- début image robe -->
+                <img src="img/robe.png" alt="image d'une robe noire" />
+                <!-- fin image robe -->
+              </div>
+              <div class="col-9">
+                <p>
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla bla bla bla bla bla bla
+                </p>
+                <a href="#"><div class="text-end">Voir</div></a>
+              </div>
+            </div>
+            <!-- fin robe -->
+          </div>
+          <!-- fin bon plan -->
+
+          <!-- début coup de coeur -->
+          <div class="col-md-3 p-0 mt-4 bordure">
+            <p class="recommandation text-center">Coup de Coeur</p>
+            <!-- début talon -->
+            <div class="row talon">
+              <div class="col-4">
+                <!-- début image talon -->
+                <img src="img/talons.png" alt="image d'un talon beige" />
+                <!-- fin image talon -->
+              </div>
+              <div class="col-8">
+                <p>
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla bla bla bla bla bla bla
+                </p>
+                <a href="#"><div class="text-end">Voir</div></a>
+              </div>
+            </div>
+            <!-- fin talon -->
+          </div>
+          <!-- fin coup de coeur -->
+
+          <!-- début objectif plaisir -->
+          <div class="col-md-3 p-0 mt-4 bordure">
+            <p class="recommandation text-center">Objectif Plaisir</p>
+            <!-- début chemise -->
+            <div class="row chemise">
+              <div class="col-4">
+                <!-- début image chemise -->
+                <img src="img/chemise.png" alt="image d'une chemise blanche" />
+                <!-- fin image chemise -->
+              </div>
+              <div class="col-8">
+                <p>
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla bla bla bla bla bla bla
+                </p>
+                <a href="#"><div class="text-end">Voir</div></a>
+              </div>
+            </div>
+            <!-- fin chemise -->
+          </div>
+          <!-- fin objectif plaisir -->
+        </div>
+        <!-- fin bon plan, coup de coeur, objectif plaisir -->
+      </main>
+      <!-- fin main -->
+
+      <!-- début footer -->
+      <footer
+        class="border-start border-bottom border-end border-secondary mb-3"
+      >
+        <div class="row d-block text-center p-3">
+          <a href="#">Newsteller</a>
+          -
+          <a href="#">Promotions</a>
+          -
+          <a href="#">Nouveaux produits</a>
+          -
+          <a href="#">Meilleurs ventes</a>
+          -
+          <a href="#">Mentions légales</a>
+          -
+          <a href="#">CGV</a>
+          -
+          <a href="#">Contactez-nous</a>
+        </div>
+      </footer>
+      <!-- fin footer -->
+    </div>
+    <!-- fin container -->
+
+    <!-- CDN Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
